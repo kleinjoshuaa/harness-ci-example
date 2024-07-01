@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_kleinjoshuaa_harness_ci_example_1719839411076-pr-trigger-input-set
+  identifier: Build_kleinjoshuaa_harness_ci_example_1719839411076prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: Split_CICD_pipeline
+  pipeline:
+    identifier: Build_kleinjoshuaa_harness_ci_example_1719839411076
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
